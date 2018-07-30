@@ -1,0 +1,132 @@
+*{
+  font-family: URW Chancery L, cursive;
+  font-style: italic;
+}
+body{
+  height: 100%;
+  margin: 0;
+}
+.body{
+  background: #eee;
+  background-image: url("https://scontent.flos8-1.fna.fbcdn.net/v/t31.0-8/21762528_1659125000828334_5814029198777783939_o.jpg?_nc_cat=0&oh=dc4235c7f26fd1ab1aa6a0edc54e792f&oe=5BDDB4B6");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 600px;
+}
+/* Nav bar starts Here.... */
+nav ul{
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+}
+nav ul.social{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+nav ul li{
+  margin: 10px;
+
+}
+nav ul li a{
+  font-size: 20px;
+}
+nav a{
+  text-align: center;
+  text-decoration: none;
+}
+/* Nav bar ends Here..... */
+.slogan{
+  font-size: 25px;
+  color: white;
+  margin-left: 80px;
+  margin-top: 90px;
+}
+.menuButton{
+  border:solid 1px #eee;
+  color:white;
+  padding:5px;
+  width:75px;
+  padding: 10px;
+  margin-left: 80px;
+  text-align: center;
+}
+.menuButton:hover{
+  cursor: pointer;
+  background: white;
+  color:blue;
+}
+.menuButton2{
+  border:solid 1px #eee;
+  color:white;
+  padding:5px;
+  width:75px;
+  padding: 10px;
+  margin-left: 25px;
+  text-align: center;
+}
+.menuButton2:hover{
+  cursor: pointer;
+  background: white;
+  color:blue;
+}
+.holdMenubutton{
+  display: flex
+}
+
+/* Media for large screen */
+@media screen and (min-width: 768px){
+  nav ul{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+  }
+  nav ul.social{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+  }
+  .slogan{
+    font-size: 40px;
+    color: white;
+    margin-left: 130px;
+    margin-top: 135px;
+  }
+  nav{
+    display: flex;
+    justify-content: space-between;
+  }
+  .menuButton{
+    border:solid 1px #eee;
+    color:white;
+    padding:5px;
+    width:75px;
+    padding: 10px;
+    margin-left: 130px;
+    text-align: center;
+  }
+  .menuButton:hover{
+    cursor: pointer;
+    background: white;
+    color:blue;
+  }
+  .menuButton2{
+    border:solid 1px #eee;
+    color:white;
+    padding:5px;
+    width:75px;
+    padding: 10px;
+    margin-left: 25px;
+    text-align: center;
+  }
+  .menuButton2:hover{
+    cursor: pointer;
+    background: white;
+    color:blue;
+  }
+  .holdMenubutton{
+    display: flex
+  }
+}
