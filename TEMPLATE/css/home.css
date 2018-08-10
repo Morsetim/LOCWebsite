@@ -28,7 +28,6 @@ body{
 }
 /* Nav bar starts Here.... */
 nav{
-  opacity: 0.3;
   position: fixed;
   background-color:rgb(56, 45, 45);
   width: 100%;
@@ -210,7 +209,7 @@ height: 550px;
 /* Media for large screen */
 @media screen and (min-width: 768px){
   .body{
-    background-image: url('../LOC.CSS/images/bible.jpg');
+    background-image: url('../images/bible.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -348,7 +347,7 @@ height: 550px;
     /* height: 600px; */
   }
   .listimage{
-    background-image: url('../LOC.CSS/images/LOC.jpg');
+    background-image: url('../images/LOC.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

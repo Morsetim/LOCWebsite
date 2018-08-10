@@ -1,0 +1,30 @@
+{
+  "name": "loc",
+  "version": "1.0.0",
+  "description": "LOC Church website",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --watch server --exec babel-node -- server/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Morsetim/LOCWebsite.git"
+  },
+  "author": "Maurice",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Morsetim/LOCWebsite/issues"
+  },
+  "homepage": "https://github.com/Morsetim/LOCWebsite#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "nodemon": "^1.18.3"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0"
+  }
+}
