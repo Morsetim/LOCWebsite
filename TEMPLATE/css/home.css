@@ -3,28 +3,30 @@
   font-style: italic;
   margin: 0;
   padding: 0;
+  margin-right: 0;
 }
 h1{
   display: flex;
   justify-content: center;
   font-size: 45px;
 }
+
 body{
   background: rgb(250, 249, 246);
-  width: 100%;
-  height: 400px;
+  /* height: 400px; */
   margin: 0;
   padding: 0;
 }
+
 .body{
-  background-image: url('../LOC.CSS/images/bible.jpg');
+  background-image: url('../images/bible.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  width: 100%;
+  width: 400px;
   height: 100%;
-  margin: 0;
-  padding: 0;
+  /* margin: 0;
+  padding: 0; */
 }
 /* Nav bar starts Here.... */
 nav{
@@ -89,6 +91,16 @@ nav a{
   border-right: 0;
 }
 /* Nav bar Ends here... */
+.body{
+  background-image: url('../images/bible.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 700px;
+  margin: 0;
+  padding: 0;
+}
 .textandbutton{
 color:#fff;
 display: flex;
@@ -144,7 +156,7 @@ height: 550px;
     height: 100px;
   }
   .listimage{
-    background-image: url('../LOC.CSS/images/LOC.jpg');
+    background-image: url("../images/LOC.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -205,6 +217,7 @@ height: 550px;
 /* Latest Sermon Container */
 
 /* Latest Sermon Container ends here. */
+
 
 /* Media for large screen */
 @media screen and (min-width: 768px){
@@ -273,7 +286,12 @@ height: 550px;
   nav{
     display: flex;
     justify-content: space-between;
+    position: fixed;
+    background-color:rgb(56, 45, 45);
+    width: 100%;
+    top: 0;
   }
+ 
   nav ul li a.base{
     font-size: 20px;
     margin: 10px;
@@ -415,6 +433,18 @@ height: 550px;
     list-style-type: none;
     margin-right: 25px;
   }
+  /* @media screen and (max-width: 768px) {
+    .body{
+      background-image: url('../images/bible.jpg');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      width: 100%;
+      height: 700px;
+      margin: 0;
+      padding: 0;
+    }
+  } */
   .list-ul2header h2{
     /* margin-bottom: 20px; */
   }

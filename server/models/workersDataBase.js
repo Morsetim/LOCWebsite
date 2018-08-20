@@ -2,7 +2,7 @@ const workers = [
   {
     id: 1,
     fullName: 'Maurice Etim',
-    department: 'Ushering, Worker"s directorate',
+    department: 'Ushering, Workers directorate',
     DOB: '24/03'
   },
   {
