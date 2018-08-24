@@ -1,12 +1,16 @@
-import test from './../app';
+import app from "./../app";
 import chai from 'chai';
+import should from 'should';
 import supertest from 'supertest';
 
+// const app = require('./../app');
+chai.should();
 
-const request = supertest(test);
+
+const request = supertest(app);
 
 describe('Get all user request', () => {
-  it('respond with json', () => {
+  it('respond with json', (done) => {
     request.get('api/v1/workers')
       .end((err, res) => {
 

@@ -1,0 +1,54 @@
+*{
+  font-family: URW Chancery L, cursive;
+  font-style: italic;
+  margin: 0;
+  padding: 0;
+  margin-right: 0;
+}
+nav{
+  position: fixed;
+  background-color:rgb(56, 45, 45);
+  width: 100%;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+}
+nav ul{
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+}
+h2{
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  color: blue;
+}
+.site-name h2{
+  margin-bottom: -10px
+}
+
+.site-name{
+  margin-left:40px
+}
+.tag{
+  font-size: 8px;
+  display: flex;
+  justify-content: center;
+  color: blue;
+}
+
+@media screen and (min-width: 768px){
+
+/* login container starts here */
+.login-container{
+  display: flex;
+  /* flex-flow: column; */
+  justify-content: center;
+  /* align-items: center; */
+  height: 400px;
+  width: 40%;
+  border: 2px solid red;
+}
+}
+/* login container ends here */
