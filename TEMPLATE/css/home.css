@@ -31,6 +31,7 @@ nav a{
   color: #eee;
   display: block;
   padding: 10px;
+  font-size: 21px;
 }
 nav a:hover{
   background-color: rgb(80, 78, 78);
@@ -51,8 +52,8 @@ nav p{
 }
 
 /* Nav bar Ends here... */
-.body{
-  background-image: url('../images/bible.jpg');
+.image-body-container{
+  background-image: url('./../images/child-945422_1920.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -171,11 +172,22 @@ height: 550px;
 /* Media for large screen */
 
 @media screen and (min-width: 768px){
+  .image-body-container{
+    background-image: url("../images/child-945422_1920.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+  }
   /* Nav bar Starts here... */
  nav {
    display: flex;
    justify-content: space-between;
    padding: 10px;
+   position: fixed;
+   top: 0;
+   width: 100%;
  }
 nav h2{
   font-size: 45px;
