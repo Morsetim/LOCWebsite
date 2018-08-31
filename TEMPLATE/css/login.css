@@ -24,31 +24,57 @@ h2{
   justify-content: center;
   color: blue;
 }
-.site-name h2{
-  margin-bottom: -10px
-}
 
 .site-name{
   margin-left:40px
 }
-.tag{
-  font-size: 8px;
+.website-name-container{
   display: flex;
+  flex-flow: column;
   justify-content: center;
+}
+nav p{
   color: blue;
+  font-size: 7px;
+  margin-top: -12px;
+}
+body{
+  background-color:rgb(14, 2, 2);
 }
 
 @media screen and (min-width: 768px){
 
 /* login container starts here */
 .login-container{
-  display: flex;
+  /* display: flex; */
   /* flex-flow: column; */
-  justify-content: center;
+  /* justify-content: center; */
+  /* background-color: green; */
   /* align-items: center; */
   height: 400px;
-  width: 40%;
-  border: 2px solid red;
+  width: 60%;
+  border: 2px solid #fff;
 }
+
+form{
+  display: flex;
+  flex-flow: column;
+  width: 60%;
+}
+
+.login-body{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 230px;
+}
+
+
+nav p{
+  color: blue;
+  font-size: 7px;
+  margin-top: -12px;
+}
+
 }
 /* login container ends here */
