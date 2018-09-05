@@ -1,8 +1,8 @@
-const workers = [
+const member = [
   {
     id: 1,
     fullName: 'Maurice Etim',
-    department: 'Ushering, Workers directorate',
+    department: 'Ushering, workers directorate',
     DOB: '24/03'
   },
   {
@@ -32,4 +32,4 @@ const workers = [
   }
 ]
 
-export default workers;
+export default member;

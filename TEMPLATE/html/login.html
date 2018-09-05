@@ -11,19 +11,41 @@
 
 <body>
   <nav>
-    <h2>LOC</h2>
-    <p class="website-name-description">(League of Champions)</p>
+    <ul>
+      <li>
+        <h2>
+          <a href="home.html">LOC</a>
+        </h2>
+        <p class="website-name-description">(League of Champions)</p>
+      </li>
+    </ul>
+    <ul class="login-list">
+      <li>
+        <a href="sign-up" id="sign-up">Sign up</a>
+      </li>
+      <li>
+        <a href="login-list-li" id="login-list-li">Login</a>
+      </li>
+    </ul>
+
     <!--  -->
   </nav>
 
-  <div class="login-body">
-    <div class="login-container">
+  <!-- <div class="login-body"> -->
+  <div class="login-container">
+    <div class="login-container-two">
+      <h2 class="welcome-msg">Hello New Quest!</h2>
       <form>
-        <input type="text" name="firstname">
-        <input type="text" name="lastname">
-        <input type="text" name="lastname">
+
+        <input type="text" id="lname" name="lastname" placeholder="Email or Username">
+
+        <input type="password" id="lname" name="lastname" placeholder="Password">
+
+
+        <input type="submit" value="Submit">
       </form>
     </div>
+  </div>
   </div>
 </body>
 
